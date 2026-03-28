@@ -1,7 +1,6 @@
-site_name: UMN PLACEHOLDER Docs
-site_url: https://PLACEHOLDER.oit.umn.edu/
+site_name: Red Teaming and OT Security Resource Hub
 site_description: >-
-  PLACEHOLDER DESCRIPTION
+  Curated resources for learning about red teaming, OT security, physical security crossover, and ethical security research.
 theme:
   name: material
   favicon: imgs/blockm.ico
@@ -11,8 +10,8 @@ theme:
   icon:
     repo: fontawesome/brands/github
   features:
-    navigation.indexes
-    navigation.expand
+    - navigation.indexes
+    - navigation.expand
   palette:
     - media: "(prefers-color-scheme: light)"
       scheme: umn
@@ -24,9 +23,19 @@ theme:
       toggle:
         icon: material/toggle-switch
         name: Switch to light mode
-repo_url: https://github.com/umn-PLACEHOLDER/PLACEHOLDER-docs
-repo_name: PLACEHODLER
+repo_url: https://github.com/mzbreach/resources-and-tools
+repo_name: resources-and-tools
 edit_uri: tree/main/docs
+nav:
+  - Home: README.md
+  - Communities: communities.md
+  - Researchers: researchers.md
+  - Tools: tools.md
+  - Writeups and Case Studies: writeups.md
+  - Events and Conferences: conferences.md
+  - Rabbit Holes: rabbit-holes.md
+  - Obscure Resources: obscure-resources.md
+  - Starter Projects: starter-projects.md
 plugins:
   - search
   #- git-revision-date-localized
