@@ -30,7 +30,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
-        uses: actions/checkout@v4
+        uses: actions/checkout@v6
 
       # https://github.com/squidfunk/mkdocs-material/blob/master/Dockerfile https://hub.docker.com/r/squidfunk/mkdocs-material
       # future state may be to hand roll the container based off squidfunk if it doesn't keep up or replicate the steps in code w/pip
