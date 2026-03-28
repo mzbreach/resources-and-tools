@@ -1,0 +1,59 @@
+[data-md-color-scheme="umn"] {
+
+  /* Default color shades */
+  /* --md-default-fg-color:               hsla(0, 0%, 0%, 0.87);
+  --md-default-fg-color--light:        hsla(0, 0%, 0%, 0.54);
+  --md-default-fg-color--lighter:      hsla(0, 0%, 0%, 0.26);
+  --md-default-fg-color--lightest:     hsla(0, 0%, 0%, 0.07);
+  --md-default-bg-color:               hsla(0, 0%, 100%, 1);
+  --md-default-bg-color--light:        hsla(0, 0%, 100%, 0.7);
+  --md-default-bg-color--lighter:      hsla(0, 0%, 100%, 0.3);
+  --md-default-bg-color--lightest:     hsla(0, 0%, 100%, 0.12); */
+
+  /* Primary color shades */
+  --md-primary-fg-color:               #7a0019;
+  --md-primary-fg-color--light:        #900021;
+  --md-primary-fg-color--dark:         #5b0013;
+  /*--md-primary-bg-color:               var(--md-default-bg-color);
+  --md-primary-bg-color--light:        var(--md-default-bg-color--light);
+
+  /* Accent color shades */
+  --md-accent-fg-color:                #900021;
+  --md-accent-fg-color--transparent:   #ffcc3316;
+  /*--md-accent-bg-color:                var(--md-default-bg-color);
+  --md-accent-bg-color--light:         var(--md-default-bg-color--light);
+
+  /* Code block color shades */
+  /*--md-code-bg-color:                  hsla(0, 0%, 92.5%, 0.5);
+  --md-code-fg-color:                  hsla(200, 18%, 26%, 1);*/
+}
+[data-md-color-scheme="slate"] {
+
+  /* Default color shades */
+  /* --md-default-fg-color:               hsla(0, 0%, 0%, 0.87);
+  --md-default-fg-color--light:        hsla(0, 0%, 0%, 0.54);
+  --md-default-fg-color--lighter:      hsla(0, 0%, 0%, 0.26);
+  --md-default-fg-color--lightest:     hsla(0, 0%, 0%, 0.07);
+  --md-default-bg-color:               hsla(0, 0%, 100%, 1);
+  --md-default-bg-color--light:        hsla(0, 0%, 100%, 0.7);
+  --md-default-bg-color--lighter:      hsla(0, 0%, 100%, 0.3);
+  --md-default-bg-color--lightest:     hsla(0, 0%, 100%, 0.12); */
+
+  /* Primary color shades */
+  --md-primary-fg-color:               #7a0019;
+  --md-primary-fg-color--light:        #900021;
+  --md-primary-fg-color--dark:         #5b0013;
+  /*--md-primary-bg-color:               var(--md-default-bg-color);
+  --md-primary-bg-color--light:        var(--md-default-bg-color--light);
+
+  /* Accent color shades */
+  --md-accent-fg-color:                #ffde7a;
+  --md-accent-fg-color--transparent:   #7a001916;
+  /*--md-accent-bg-color:                var(--md-default-bg-color);
+  --md-accent-bg-color--light:         var(--md-default-bg-color--light);
+
+  /* Code block color shades */
+  /*--md-code-bg-color:                  hsla(0, 0%, 92.5%, 0.5);
+  --md-code-fg-color:                  hsla(200, 18%, 26%, 1);*/
+  --md-typeset-a-color: #ffcc33;
+}

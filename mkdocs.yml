@@ -1,0 +1,52 @@
+site_name: UMN PLACEHOLDER Docs
+site_url: https://PLACEHOLDER.oit.umn.edu/
+site_description: >-
+  PLACEHOLDER DESCRIPTION
+theme:
+  name: material
+  favicon: imgs/blockm.ico
+  logo: imgs/blockm.svg
+  font:
+    text: Open Sans
+  icon:
+    repo: fontawesome/brands/github
+  features:
+    navigation.indexes
+    navigation.expand
+  palette:
+    - media: "(prefers-color-scheme: light)"
+      scheme: umn
+      toggle:
+        icon: material/toggle-switch-off-outline
+        name: Switch to dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      toggle:
+        icon: material/toggle-switch
+        name: Switch to light mode
+repo_url: https://github.com/umn-PLACEHOLDER/PLACEHOLDER-docs
+repo_name: PLACEHODLER
+edit_uri: tree/main/docs
+plugins:
+  - search
+  #- git-revision-date-localized
+extra_css:
+  - 'stylesheets/color.css'
+extra_templates:
+  - 'metadata.json'
+markdown_extensions:
+  - toc:
+      permalink: "#"
+  - admonition
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+  - pymdownx.highlight:
+      auto_title: true
+  - pymdownx.emoji:
+      emoji_index: !!python/name:pymdownx.emoji.twemoji
+      emoji_generator: !!python/name:pymdownx.emoji.to_svg
+  - pymdownx.tasklist:
+      custom_checkbox: true

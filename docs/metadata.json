@@ -1,0 +1,4 @@
+{
+    "site_name": "{{ config.site_name }}",
+    "site_description": "{% if config.site_description %}{{ config.site_description }}{% endif %}"
+}
