@@ -38,7 +38,7 @@ jobs:
         run: docker run --rm -v ${PWD}:/docs docker.io/squidfunk/mkdocs-material build -d site
 
       - name: Setup Pages
-        uses: actions/configure-pages@v4
+        uses: actions/configure-pages@v6
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v4
