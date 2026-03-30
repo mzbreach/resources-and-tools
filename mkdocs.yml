@@ -3,8 +3,8 @@ site_description: >-
   Curated resources for learning about red teaming, OT security, physical security crossover, and ethical security research.
 theme:
   name: material
-  favicon: imgs/blockm.ico
-  logo: imgs/blockm.svg
+  favicon: imgs/github-favicon.svg
+  logo: imgs/project-logo.svg
   font:
     text: Open Sans
   icon:
@@ -14,7 +14,7 @@ theme:
     - navigation.expand
   palette:
     - media: "(prefers-color-scheme: light)"
-      scheme: umn
+      scheme: default
       toggle:
         icon: material/toggle-switch-off-outline
         name: Switch to dark mode
