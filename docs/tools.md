@@ -35,9 +35,9 @@ The tools listed here are open-source, publicly available, and widely used in re
 
 ## RFID and Hardware Research
 
-- [Proxmark3](https://proxmark.com/) — Open-source RFID research platform. Used to read, analyze, and clone RFID credentials in authorized physical security assessments. Understanding how it works exposes common access control weaknesses.
-- [Flipper Zero](https://flipperzero.one/) — Multi-protocol portable security research tool covering RFID, NFC, sub-GHz radio, infrared, and more. Popular for hands-on physical security research in lab and authorized contexts.
-- [HackRF One](https://greatscottgadgets.com/hackrf/) — Software-defined radio (SDR) hardware for transmitting and receiving radio signals. Used for analyzing wireless protocols, including those found in industrial environments.
+- [Proxmark3](https://hackerwarehouse.com/product/proxmark3-rdv4-kit/) — Open-source RFID research platform. Used to read, analyze, and clone RFID credentials in authorized physical security assessments. Understanding how it works exposes common access control weaknesses.
+- [Flipper Zero](https://flipper.net/) — Multi-protocol portable security research tool covering RFID, NFC, sub-GHz radio, infrared, and more. Popular for hands-on physical security research in lab and authorized contexts.
+- [HackRF](https://greatscottgadgets.com/hackrf/) — Software-defined radio (SDR) hardware for transmitting and receiving radio signals. Used for analyzing wireless protocols, including those found in industrial environments.
 - [Binwalk](https://github.com/ReFirmLabs/binwalk) — Firmware analysis tool used to extract and analyze embedded file systems. Relevant for ICS device firmware research.
 
 ---
@@ -64,3 +64,10 @@ The tools listed here are open-source, publicly available, and widely used in re
 - [Metasploit Framework](https://www.metasploit.com/) — The most widely used open-source penetration testing framework. Most red team training involves Metasploit at some stage. Use only in authorized lab environments.
 - [MITRE ATT&CK Navigator](https://mitre-attack.github.io/attack-navigator/) — Web tool for visualizing and annotating ATT&CK matrices. Useful for planning simulated adversary behavior, gap analysis, and detection coverage mapping.
 - [ATT&CK for ICS](https://attack.mitre.org/matrices/ics/) — Extension of the ATT&CK framework covering adversary tactics specific to industrial control systems. Essential reference for ICS threat modeling.
+
+---
+
+## Marketplaces
+
+- [Red Team Tools](https://www.redteamtools.com/) — Great website for finding and purchasing tools to assist offensive security assessments.
+- [Hacker Warehouse](https://hackerwarehouse.com/) — Another excellent website for finding and purchasing tools to assist offensive security assessments.

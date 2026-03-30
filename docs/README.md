@@ -6,19 +6,6 @@ All content here is oriented toward **legal, authorized, and ethical** security 
 
 ---
 
-## How to Use This Site
-
-Each page focuses on a specific resource category. Browse based on where you are in your learning journey:
-
-- **New to the field?** Start with [Communities](communities.md) to find peer groups and [Starter Projects](starter-projects.md) for hands-on experience.
-- **Looking for people to follow?** See [Researchers](researchers.md).
-- **Need tools for a lab or authorized engagement?** See [Tools](tools.md).
-- **Want to read case studies and writeups?** See [Writeups and Case Studies](writeups.md).
-- **Planning to attend or watch talks?** See [Events and Conferences](conferences.md).
-- **Curious about niche subtopics?** See [Rabbit Holes](rabbit-holes.md) and [Obscure Resources](obscure-resources.md).
-
----
-
 ## Site Sections
 
 - [Communities](communities.md) — Online forums, subreddits, Discord servers, and OT/ICS-adjacent groups.
@@ -42,4 +29,4 @@ The resources collected here are intended exclusively for **educational use, aut
 - Many tools listed here have both offensive and defensive applications. Use them responsibly and within the law.
 - When in doubt, consult the relevant legal frameworks for your jurisdiction (e.g., the Computer Fraud and Abuse Act in the US).
 
-This site is a student project and does not represent any organization or institution. Links are provided for educational reference only.
+This site is a personal project and does not represent any organization or institution. Links are provided for educational reference only.

@@ -14,7 +14,7 @@ Security research rarely follows a straight line. These are subtopics encountere
 - DNP3 added a Secure Authentication extension (SAv5) but adoption has been slow because retrofitting authentication into existing deployments is expensive.
 - Many ICS devices cannot be updated or replaced easily; a PLC running in a plant may be expected to operate for 20-30 years.
 
-**Where to start:** The [Modbus specification](https://modbus.org/specs.php) is publicly available and short. Reading it alongside a Wireshark capture of Modbus traffic is illuminating.
+**Where to start:** The [Modbus specification](https://www.modbus.org/modbus-specifications) is publicly available and short. Reading it alongside a Wireshark capture of Modbus traffic is illuminating.
 
 ---
 
@@ -28,7 +28,7 @@ Security research rarely follows a straight line. These are subtopics encountere
 - The rootkit component hid the malicious ladder logic from engineers reviewing the PLC program — the machines appeared to be running normally on monitors while being actively damaged.
 - Ralph Langner's initial public analysis (2010) remains a good technical reference. Kim Zetter's *Countdown to Zero Day* covers the full story in narrative form.
 
-**Where to start:** [Langner's Stuxnet Deep Dive (PDF)](https://www.langner.com/wp-content/uploads/2017/03/to-kill-a-centrifuge.pdf)
+**Where to start:** [Langner's Stuxnet Deep Dive (PDF)](https://otbase.com/wp-content/uploads/2025/08/to-kill-a-centrifuge.pdf)
 
 ---
 

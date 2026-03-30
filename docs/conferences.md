@@ -13,7 +13,7 @@ Security conferences are where practitioners share cutting-edge research, tools,
 
 ### Black Hat
 
-- [Black Hat](https://www.blackhat.com/) — Practitioner-focused conference with presentations on vulnerability research, offensive tooling, and emerging attack techniques. Briefing materials and select talks are archived at [Black Hat Archives](https://www.blackhat.com/us-24/briefings/schedule/).
+- [Black Hat](https://www.blackhat.com/) — Practitioner-focused conference with presentations on vulnerability research, offensive tooling, and emerging attack techniques. Some briefing materials and select talks are archived at [Black Hat Archives 2024](https://www.blackhat.com/us-24/briefings/schedule/).
 - [Black Hat YouTube Channel](https://www.youtube.com/@BlackHatOfficialYT) — Recordings of select briefings and keynotes. Black Hat sessions tend to be more technically dense than DEF CON.
 
 ### RSA Conference
@@ -30,7 +30,7 @@ Security conferences are where practitioners share cutting-edge research, tools,
 
 ### SANS ICS Summit
 
-- [SANS ICS Security Summit](https://www.sans.org/cyber-security-summit/ics/) — Annual event co-hosted by SANS and Idaho National Laboratory. Focused on practitioner skills, incident response, and ICS defense. Some session recordings are made available post-event.
+- [SANS ICS Security Summit](https://www.sans.org/cyber-security-training-events/ics-security-summit-2026) — Annual event co-hosted by SANS and Idaho National Laboratory. Focused on practitioner skills, incident response, and ICS defense. Some session recordings are made available post-event.
 
 ### DistribuTECH
 
@@ -42,21 +42,19 @@ Security conferences are where practitioners share cutting-edge research, tools,
 
 ### DEF CON Villages
 
-- [Physical Security Village](https://www.physecvillage.com/) — DEF CON village focused on locks, access control, RFID, and physical penetration testing. Hosts hands-on competitions and archived talks.
-- [Social Engineering Community Village](https://www.sectf.org/) — DEF CON village running the Social Engineering CTF (SECTF). The competition and post-event report are educational resources for understanding human-layer security.
+- [Physical Security Village](https://physsec.org/) — DEF CON village focused on locks, access control, RFID, and physical penetration testing. Hosts hands-on competitions and archived talks.
+- [Social Engineering Community Village](https://www.se.community/) — DEF CON village specializing in Social Engineering. They host CTF competitions and distribute post-event reports that are educational resources for understanding human-layer security.
 
 ---
 
 ## Local and Regional Conferences
 
-- [BSides Events](https://www.securitybsides.com/w/page/12194156/FrontPage) — Community-organized security conferences held worldwide. Typically free or low-cost with talks from local practitioners. A good place to find regionally focused ICS and red team content.
-- [Hack in the Box (HITB)](https://conference.hitb.org/) — Technical conference held in Amsterdam and Kuala Lumpur. Strong emphasis on vulnerability research and offensive security. Talk archives available publicly.
+- [BSides Events](https://bsides.org/) — Community-organized security conferences held worldwide. Typically free or low-cost with talks from local practitioners. A good place to find regionally focused ICS and red team content.
 
 ---
 
 ## YouTube Channels and Talk Archives
 
-- [ICS-CERT Video Library](https://www.cisa.gov/resources-tools/resources/ics-recommended-practices) — CISA-produced educational content on ICS security practices and incident response.
 - [SANS Cyber Defense YouTube](https://www.youtube.com/@SANSInstitute) — Recorded webinars, summit talks, and instructional content from SANS instructors.
 - [Seytonic (YouTube)](https://www.youtube.com/@Seytonic) — Covers hardware hacking, RFID, and physical security topics in an accessible format. Good supplemental viewing for hardware and physical security beginners.
 - [LiveOverflow (YouTube)](https://www.youtube.com/@LiveOverflow) — Practitioner channel covering CTF challenges, exploit development, and security research methodology. Explains complex topics clearly.

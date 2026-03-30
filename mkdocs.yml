@@ -36,6 +36,7 @@ nav:
   - Rabbit Holes: rabbit-holes.md
   - Obscure Resources: obscure-resources.md
   - Starter Projects: starter-projects.md
+  - RFID Research: rfid.md
 plugins:
   - search
   #- git-revision-date-localized
