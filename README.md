@@ -1,60 +1,107 @@
-# umn-pages-template
+# Red Teaming and OT Security Resource Hub
 
-Use this Template to quickly create a UMN Github Pages Site.
+A curated MkDocs site focused on red teaming, OT/ICS security, physical security crossover, RFID research, and ethical security learning.
 
-## Enable Github Actions and Dependabot
+This repository is meant to serve as a clean, navigable collection of publicly available resources for beginners and intermediate learners who want a structured starting point. The emphasis is on **context, reputable references, and responsible use** rather than operational attack guidance.
 
-Remove the .tmpl file extension from `.github/dependabot.yml` and `.github/workflows/githubpages.yml`
+## What this site covers
 
-* The `dependabot.yml` file will create pull requests to keep Actions up to date. [See our docs page to learn more about dependabot](https://github-docs.devex.oit.umn.edu/dependabot/) 
+The site currently includes pages for:
 
-* The `githubpages.yml` file deploys a Github Pages site. The Action is configured to run on pushes to 'main' branch and will run on the [UMN Arc Runner](https://github-docs.devex.oit.umn.edu/action-runners/#self-hosted-runners).
+- **Communities** — forums, subreddits, Discord servers, and other places to learn from practitioners
+- **Researchers** — notable individuals, organizations, and labs worth following
+- **Tools** — commonly referenced security and research tools, organized by category
+- **Writeups and Case Studies** — public incident analyses, blog posts, and educational technical writeups
+- **Events and Conferences** — conferences, villages, talks, and archives
+- **Rabbit Holes** — interesting subtopics that are worth deeper exploration
+- **Obscure Resources** — niche references, blogs, newsletters, and smaller communities
+- **Starter Projects** — safe beginner-friendly project ideas for building hands-on skill
+- **RFID Research** — references related to Proxmark3, RFID ecosystems, and community troubleshooting resources
 
-Learn more about Github Actions [here](https://github-docs.devex.oit.umn.edu/actions/).
+## Project goals
 
-## Adjust mkdocs.yml
+This project is designed to be:
 
-This github pages configuration uses [mkdocs](https://www.mkdocs.org/) to build the site.
+- **Beginner-friendly** without being shallow
+- **Useful to intermediate learners** who want curated jumping-off points
+- **Ethically framed** around authorized testing, research, and defensive understanding
+- **Easy to extend** with additional markdown pages and curated links over time
 
-There are several changes needed in the `mkdocs.yml` file. In the following example, replace any instance of the PLACEHOLDER items with your site's respective information. 
+## Ethics and scope
 
-```yml
-site_name: UMN PLACEHOLDER Docs
-site_url: https://PLACEHOLDER.SUBDOMAIN.umn.edu/ # This will be used for your custom domain
-site_description: >-
-  PLACEHOLDER DESCRIPTION
-# [...]
-repo_url: https://github.com/YOUR_GITHUB_ORG/YOUR_SITE_NAME
-repo_name: YOUR_SITE_NAME
+All content in this repository is intended for **legal, authorized, and educational** use only.
+
+This project does **not** aim to provide unauthorized intrusion guidance. In particular:
+
+- Only perform testing against systems you own or have explicit written permission to assess.
+- OT/ICS systems can have real-world safety consequences; lab-first learning matters.
+- Physical and RFID research should be conducted within legal and ethical boundaries.
+- Community links are included as references and learning resources, not endorsements of every post or technique discussed there.
+
+## Running the site locally
+
+This repository uses [MkDocs](https://www.mkdocs.org/) with the Material theme.
+
+A simple local workflow looks like this:
+
+```bash
+python -m venv .venv
+source .venv/bin/activate  # On Windows use: .venv\Scripts\activate
+pip install mkdocs mkdocs-material pymdown-extensions
+mkdocs serve
 ```
 
-## Populate `/docs/` directory with your docs
+Then open the local address shown in your terminal, usually `http://127.0.0.1:8000`.
 
-* `/docs/README.md` is the front page
-* Every other `.md` file in the `/docs/` directory will be a page added to the left navigation bar (ex: `page-one.md`)
-    * It uses the first H1 markdown header (ex: `# Page One`) as the title
-    * If you want to create a submenu, you can create a directory in this folder and any pages that should be in that menu will go inside of that directory 
-* `/stylesheets/color.css` file is configured to a UMN color scheme 
-* `/imgs/` has UMN icons. This is also a good directory to put other images you wish to reference in your docs 
-* `metadata.json` stores metadata information based on your mkdocs configuration 
+To build the static site:
 
-## Configure Pages on github.com
+```bash
+mkdocs build
+```
 
-* Build and deployment Source should be set to **GitHub Actions** 
-    * Configuration for Github Pages is found in your repository settings tab in the `Code and Automation -> Pages` section 
-* Set the appropriate visibility to your site
-    * GitHub Pages visibility can be public (anyone on the internet) or private (anyone that has access to your repository) 
+## Repository layout
 
-### Custom Domains
+```text
+.
+├── README.md            # Repository landing page
+├── mkdocs.yml           # Site configuration and navigation
+└── docs/
+    ├── README.md        # Homepage for the published site
+    ├── communities.md
+    ├── researchers.md
+    ├── tools.md
+    ├── writeups.md
+    ├── conferences.md
+    ├── rabbit-holes.md
+    ├── obscure-resources.md
+    ├── starter-projects.md
+    └── rfid.md
+```
 
-A custom domain will allow users to visit your site at a URL of `<sitename>.<dept>.umn.edu` instead of `fluffy-pjs.pages.github.io` (by default Github makes up a random name + `.github.io`).  Custom Domains are not required but nice. 
+## Editing and adding content
 
-* University Relations has [design requirements](https://university-relations.umn.edu/resources/domains-and-branding) for any official University of Minnesota website (any sites using the apex domain `umn.edu`) 
-* You will need a subdomain to use for your site -- if your department doesn't already have one, work with NTS to create one for your department 
-    * For example, Devex's is `devex.oit.umn.edu` 
+Most content changes only require editing markdown files in `docs/`.
 
-Email `nts-help@umn.edu` to open a ticket with the NTS team asking to **create a CNAME alias** for your custom subdomain to point to [your org's default domain](https://docs.github.com/en/enterprise-cloud@latest/pages/configuring-a-custom-domain-for-your-github-pages-site/managing-a-custom-domain-for-your-github-pages-site#configuring-a-subdomain); you can find this information on your repository's GitHub Pages Settings page. For example, Devex would submit a request for `test-docs.devex.oit.umn.edu` to be a CNAME alias for `umn-devex-test.github.io`. 
+A few practical conventions that help keep the site consistent:
 
-### Set up custom domain 
+- Use a short introductory paragraph at the top of each page.
+- Group links into clear thematic sections.
+- Keep summaries concise and explanatory.
+- Prefer public, reputable, and stable sources when possible.
+- Frame sensitive topics around research context, ecosystem understanding, and defensive value.
 
-Once the records have been set-up, go back to the **Settings --> Pages** section and add your new URL to the Customer Domain section on the bottom of the page. Also, update the `site_name` in `mkdocs.yml`. Enforce HTTPS should be checked.
+If you add a new page, remember to also add it to the `nav:` section in `mkdocs.yml`.
+
+## Deployment
+
+This repository is configured as an MkDocs-based GitHub Pages site. Once GitHub Pages and the repository workflow are configured, pushes to the main branch can be used to publish updates.
+
+Key files involved in deployment and site behavior:
+
+- `mkdocs.yml` — site name, theme, navigation, and plugins
+- `docs/` — page content
+- `.github/` — repository automation and update configuration
+
+## Notes
+
+This is a personal educational resource hub and does not represent any employer, institution, or organization. External links are provided for reference and learning convenience.
