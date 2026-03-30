@@ -38,27 +38,6 @@ This project does **not** aim to provide unauthorized intrusion guidance. In par
 - Physical and RFID research should be conducted within legal and ethical boundaries.
 - Community links are included as references and learning resources, not endorsements of every post or technique discussed there.
 
-## Running the site locally
-
-This repository uses [MkDocs](https://www.mkdocs.org/) with the Material theme.
-
-A simple local workflow looks like this:
-
-```bash
-python -m venv .venv
-source .venv/bin/activate  # On Windows use: .venv\Scripts\activate
-pip install mkdocs mkdocs-material pymdown-extensions
-mkdocs serve
-```
-
-Then open the local address shown in your terminal, usually `http://127.0.0.1:8000`.
-
-To build the static site:
-
-```bash
-mkdocs build
-```
-
 ## Repository layout
 
 ```text
